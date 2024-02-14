@@ -1,7 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: white
-    ;
+    color: white;
 }
 
 #nav{
@@ -148,7 +147,60 @@ li a:hover{
       
       #main3{
         display: none;
-        background-image: url(RES\mehmet-subasi-tmw76G4vo5k-unsplash.jpg);
+        background-image: url(../RES/mehmet-subasi-tmw76G4vo5k-unsplash.jpg);
         height: 100vh;
         width: 100%;
       }
+
+      #main4{
+        display: none;
+        background-image: url(../RES/unsplash_P8PlK2nGwqA.jpg);
+        height: 200vh;
+        width: 100%;
+        text-align: center;
+      }
+
+#box{
+  border-radius: 20px;
+  height: 25px;
+}
+
+#fieldset1{
+  background-color: rgba(0, 0, 255, 0.411);
+  text-align: center;
+  border-radius: 20px;
+  height: 180vh;
+}
+
+#bookings{
+  text-align: center;
+
+}
+
+#table{
+  text-align: justify;
+  margin: auto;
+}
+
+#table2{
+  text-align: justify;
+  margin: auto;
+}
+
+#button1{
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+  
+}
+
+#button1:hover{
+  background-color: white;
+  color: black;
+  transition: 1s;
+  cursor: pointer;
+}
+

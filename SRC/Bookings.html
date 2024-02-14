@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body>
+    <body id="bookings">
         <main id="main1">
             <div class="loader">
                 <div class="loader2">
@@ -24,18 +24,131 @@
                     </div>
                 </div>
             </div>
-            <h2>Loading.......</h2>
+            <h2 style="color: black;">Loading.......</h2>
     </main>
 
-    <main id="main2">
+    <main id="main4">
         <section>
          <ul id="nav">
             <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="About.html">About</a></li>
-            <li><a href="Bookings.html">Bookings</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a class="active" href="Bookings.html">Bookings</a></li>
             <li><a href="Contatct.html">Contact</a></li>
         </ul>
+        <h1>Please enter your details<br>below to confrim your booking.</h1>
+
+        <fieldset id="fieldset1">
+           <form>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="box" name="FirstName">
+            <br>
+            <br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="box" name="Last Name">
+            <br>
+            <br>
+
+            <label for="number">Contact Number</label><br>
+            <input type="tel" id="box" name="ContactNumber">
+            <br>
+            <br>
+
+            <lable for="email">Email Address</lable><br>
+            <input type="email" id="box" name="EmailAddress">
+            <br>
+            <br>
+
+            <p>How many days would<br>you like to stay at our<br>facilities?</p><br>
+            <input type="text" id="box" placeholder="Please Type" name="Days">
+            <br>
+            <br>
+
+            <legend>Which one of our rooms would you like to stay in?</legend><br>
+            <label for="rooms"></label>
+            <select name="rooms" id="box">
+                <option style="color: grey;">--Please Select--</option>
+                <option value="Standard">Standard Pack(1 br, 1bth, R200 per night)</option>
+                <option value="Partner">Partner Pack(2 br,1bth, R250 per night)</option>
+                <option value="Family">Family Pack(4br, 2bth, R400 per night)</option>
+                <option value="Deluxe">Deluxe Pack(5br, 2bth, Private Pool, R650 per night)</option>
+            </select>
+            <br>
+            <br>
+
+            <legend>Have you stayed at any of out facilities before?</legend><br>
+            <table id="table">
+                <tr>
+                    <td><input type="radio" id="radio" name="Yes"></td>
+                    <td><label for="yes">Yes</label><br></td>
+                </tr>
+
+                <tr>
+                  <td><input type="radio" id="radio" name="No"></td>
+                  <td><label for="no">No</label><br></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+
+            <legend>Are there any dietary needs we should be<br>aware of? Eg Lactose<br>Intolerant, Vegitarian etc</legend><br>
+                <table id="table2">
+                    <tr>
+                        <td><input type="checkbox" id="check" name="Lactose"></td>
+                        <td><label for="Lactose">Lactose Intolerant</label><br></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="check" name="Vegitarian"></td>
+                        <td><label for="Vegitarian">Vegitarian</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="check" name="Vegan"></td>
+                        <td><label for="Vegan">Vegan</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="check" name="Pescatarian"></td>
+                        <td><label for="Pescatarian">Pescatarian</label></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+
+                <legend>What payment method will you be using?</legend><br>
+                <label for="payment"></label>
+                <select id="box" name="payment">
+                    <option>--Please Select--</option>
+                    <option value="Card">Card(MasterCard, American Express, Visa, PayPal, etc)</option>
+                    <option value="Cash">Cash</option>
+                </select>
+                <br>
+                <br>
+
+                <legend>If you chose card as your payment method, please enter your account number</legend><br>
+                <label for="account"></label>
+                <input type="text" id="box" name="AccountNo">
+                <br>
+                <br>
+
+                <legend>I have read and agreed to the Terms and Conditions:</legend><br>
+                <input type="checkbox" id="check" name="T&C">
+                <br>
+                <br>
+
+                <button id="button1">Submit</button>
+
+           
+
+            
+           </form>
+            
+        </fieldset>
+        
         </section>
+
+
     </main>
 
         <script src="script.js">
