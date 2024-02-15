@@ -11,17 +11,17 @@ setTimeout(function(){
 }, 3000)
 
 //const url ="https://formspree.io/f/mwkgoovd"
-    // const url ="https://formspree.io/f/mdoqkynl"
+    //const url ="https://formspree.io/f/mdoqkynl"
 
     //let send =JSON.stringify(guest1)
 
-   // fetch(url,{
-       /// method: "POST",
-       /// body: send,
-       // headers:{
-            ///"Content-Type":"application/json"
-       // }
-  //  })
+   //fetch(url,{
+       //method: "POST",
+      // body: send,
+       //headers:{
+           // "Content-Type":"application/json"
+       //}
+  //})
 //.catch(function(e){console.log(e)})
 
 setTimeout(function(){
