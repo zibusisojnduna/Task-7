@@ -1,19 +1,20 @@
 setTimeout(function(){
     const main1 = document.getElementById("main1")
     const main3 = document.getElementById("main3")
-    const main4 = document.getElementById("main4")
+    const fieldset1 = document.getElementById("fieldset1")
+    const main5 = document.getElementById("main5")
 
     main1.style.display = "none"
     main3.style.display = "block"
-    main4.style.display = "block"
-    
+    fieldset1.style.display = "block"
+    main5.style.display = "block"
    
 }, 3000)
 
 const url ="https://formspree.io/f/mwkgoovd"
-const url ="https://formspree.io/f/mdoqkynl"
+//const url ="https://formspree.io/f/mdoqkynl"
 
-    let send =JSON.stringify(guest1)
+    let send =JSON.stringify()
 
    fetch(url,{
        method: "POST",
@@ -30,6 +31,16 @@ setTimeout(function(){
 
     main1.style.display = "none"
     main4.style.display = "block"
+    
+   
+}, 3000)
+
+setTimeout(function(){
+    var main1 = document.getElementById("main1")
+    var main5 = document.getElementById("main5")
+
+    main1.style.display = "none"
+    main5.style.display = "block"
     
    
 }, 3000)
